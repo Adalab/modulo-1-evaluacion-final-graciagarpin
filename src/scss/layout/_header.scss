@@ -3,9 +3,24 @@
   color: $color-turquoise;
 }
 
-.navbar {
-}
+.navbar__menu {
+  @media all and (max-width: 1200px) {
+    .navbar__menu-burger {
+      color: $color-turquoise;
+    }
+    .navbar__menu-links {
+      display: none;
+    }
+  }
 
-.navbar__menu--burger {
-  color: $color-turquoise;
+  @media all and (min-width: 1200px) {
+    .navbar__menu-links {
+      &--link {
+        color: $color-turquoise;
+      }
+    }
+    .navbar__menu-burger {
+      display: none;
+    }
+  }
 }
