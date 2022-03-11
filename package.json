@@ -27,8 +27,8 @@
 		"lodash.template": ">=4.5.0"
 	},
 	"scripts": {
-		"start": "./node_modules/.bin/gulp",
-		"docs": "rm -rf docs && ./node_modules/.bin/gulp docs",
+		"start": "gulp",
+		"docs": "rm -rf docs && gulp docs",
 		"push-docs": "rm -rf docs && gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
 		"deploy": "npm run push-docs"
 	},

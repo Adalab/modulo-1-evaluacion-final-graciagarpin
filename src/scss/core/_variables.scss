@@ -1,8 +1,40 @@
 // fonts
-$font-main: 'Poppins';
-$font-secondary: 'Poppins-SemiBold';
+$fontText: 'Poppins', sans-serif;
 
 // colors
 $color-turquoise: #0c474b;
 $color-white: #ffffff;
 $color-light-turquoise: #b6c8c9;
+
+//fonts size
+$font-sizeTitle: 24px;
+$font-sizeSubtitle: 20px;
+$font-sizeParagraph: 16px;
+$font-sizeSmallText: 14px;
+
+//font weight
+$font-wghtRegular: 400px;
+$font-wghtSemiBold: 600px;
+
+//background color
+$color-background-1: #0c474b;
+$color-background-2: #f0ebe5;
+$color-background-3: #ff975a;
+
+//root:
+:root {
+  font: $fontText, $font-sizeParagraph;
+  color: $color-turquoise;
+}
+
+.title {
+  font: $font-sizeTitle, $font-wghtSemiBold;
+}
+
+.subtitle {
+  font: $font-sizeSubtitle, $font-wghtSemiBold;
+}
+
+.small-text {
+  font: $font-sizeSmallText;
+}

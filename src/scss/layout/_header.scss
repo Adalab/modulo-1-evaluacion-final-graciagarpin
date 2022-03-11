@@ -1,6 +1,14 @@
 .header {
   background-image: url(../images/header.jpg);
+  background-size: cover;
+  height: 40vh;
   color: $color-turquoise;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navbar__menu {
@@ -19,6 +27,7 @@
 
 .navbar__menu-burger {
   color: $color-turquoise;
+  
 }
 
 .navbar__menu-links {
