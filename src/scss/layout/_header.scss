@@ -1,7 +1,11 @@
 .header {
   background-image: url(../images/header.jpg);
+  color: $color-turquoise;
 }
 
-// display: flex;
-//   justify-content: space-evenly;
-//   margin-bottom: 3rem;
+.navbar {
+}
+
+.navbar__menu--burger {
+  color: $color-turquoise;
+}
