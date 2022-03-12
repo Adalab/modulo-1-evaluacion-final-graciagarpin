@@ -1,7 +1,11 @@
 .header {
   background-image: url(../images/header.jpg);
+  background-position: center center;
   background-size: cover;
-  height: 40vh;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-color: $color-background-2;
+  height: 100vh;
   color: $color-turquoise;
 }
 
@@ -9,6 +13,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
 }
 
 .navbar__menu {
@@ -36,6 +41,17 @@
 }
 
 .disfruta {
-  font-size: $font-sizeTitle;
-  font-weight: $font-wghtSemiBold;
+  display: flex;
+  flex-direction: column;
+  align-items: center; //eje secundario centrado
+}
+
+.btn {
+  color: $color-white;
+  background-color: $color-turquoise;
+  padding: 12px;
+}
+
+.btn-box {
+  display: flex;
 }

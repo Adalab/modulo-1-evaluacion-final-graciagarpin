@@ -23,6 +23,7 @@ $color-background-3: #ff975a;
 
 // root
 :root {
+  font-family: $fontText;
   color: $color-turquoise;
 }
 
@@ -37,6 +38,6 @@ $color-background-3: #ff975a;
 .small-text {
   font-size: $font-sizeSmallText;
 }
-// .pararagraph {
-//   font-size: $font-sizeParagraph;
-// }
+.paragraph {
+  font-size: $font-sizeParagraph;
+}
