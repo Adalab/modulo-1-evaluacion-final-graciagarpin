@@ -10,10 +10,12 @@
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-around;
+  display: flex; //row
   align-items: center;
+  width: 100vw;
   position: fixed;
+  margin: 7vw;
+  
 }
 
 .navbar__menu {
@@ -30,13 +32,18 @@
   }
 }
 
+.navbar__logo {
+
+}
+
 .navbar__menu-burger {
   color: $color-turquoise;
 }
 
-.navbar__menu-links {
-  &--link {
-    color: $color-turquoise;
+.menu-links__item {
+  // color: $color-turquoise;
+  &item--link {
+    // color: $color-turquoise;
   }
 }
 
@@ -44,6 +51,13 @@
   display: flex;
   flex-direction: column;
   align-items: center; //eje secundario centrado
+  position:relative;
+  top:50vh;
+  width: auto;
+  
+  @media  (max-width:768px){
+    
+  }
 }
 
 .btn {
