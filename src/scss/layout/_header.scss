@@ -27,11 +27,15 @@
 
 .navbar__menu-burger {
   color: $color-turquoise;
-  
 }
 
 .navbar__menu-links {
   &--link {
     color: $color-turquoise;
   }
+}
+
+.disfruta {
+  font-size: $font-sizeTitle;
+  font-weight: $font-wghtSemiBold;
 }
