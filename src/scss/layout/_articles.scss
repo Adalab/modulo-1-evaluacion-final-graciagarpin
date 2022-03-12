@@ -1,6 +1,34 @@
-.articles {
+.open-spaces {
   background-color: $color-background-2;
+  height: 100vh;
+  
+}
+
+.open-spaces__title{
+  padding: 40px;
+  text-align: center;
+}
+
+.articles {
   display: grid;
   justify-content: center;
+  text-align: center;
+
+  &__article {
+    &__img {
+      // padding: 30px;
+      background-color: red;
+    }
+    &__subtitle {
+      // padding-bottom: 15px;
+      background-color: red;
+    }
+  }
 }
+
+// .article__subtitle {
+//   background-color: red;
+// }
+
+
 

@@ -7,6 +7,7 @@
   background-color: $color-background-2;
   height: 100vh;
   color: $color-turquoise;
+  box-sizing: content-box;
 }
 
 .navbar {
@@ -32,10 +33,6 @@
   }
 }
 
-.navbar__logo {
-
-}
-
 .navbar__menu-burger {
   color: $color-turquoise;
 }
@@ -43,7 +40,7 @@
 .menu-links__item {
   // color: $color-turquoise;
   &item--link {
-    // color: $color-turquoise;
+    color: $color-turquoise;
   }
 }
 
@@ -54,7 +51,7 @@
   position:relative;
   top:50vh;
   width: auto;
-  
+  // padding-bottom: z;
   @media  (max-width:768px){
     
   }
@@ -64,6 +61,7 @@
   color: $color-white;
   background-color: $color-turquoise;
   padding: 12px;
+  text-decoration: none;
 }
 
 .btn-box {

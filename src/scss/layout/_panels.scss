@@ -1,3 +1,50 @@
-.panel {
+.panel1 {
   background-color: $color-background-3;
+  display: flex;
+  flex-direction: column;
+  align-items: center; //eje secundario centrado
+  width: auto;
+  color: $color-white;
+  padding: 6.5%;
+  box-sizing: content-box;
+
+  img {
+    padding-bottom: 15px;
+  }
+  &__title {
+    padding-bottom: 15px;
+  }
+  &__small-text {
+    padding-bottom: 15px;
+  }
+  &__link {
+    color: $color-white;
+  }
+}
+
+.panel2 {
+  background-color: $color-background-2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; //eje secundario centrado
+  width: auto;
+  padding: 6.5%;
+  box-sizing: content-box;
+
+  &__title {
+    padding-bottom: 15px;
+  }
+  &__small-text {
+    padding-bottom: 15px;
+  }
+}
+
+.image-box {
+  background-image: url(../images/creando-espacios.jpg);
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-color: $color-background-2;
 }
