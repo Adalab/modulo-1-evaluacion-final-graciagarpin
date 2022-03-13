@@ -45,10 +45,18 @@
 }
 
 .navbar__menu-links {
-  border: red solid 2px;
   display: flex;
-  align-items: flex-start;
-  margin-left: 10%;
+
+  //DUDA ANIDADO:
+  // &__link {
+  //   border: blue solid 2px;
+  //   justify-content: space-around;
+  // }
+  gap: 6.5px;
+}
+
+.item__link {
+  padding: 15px;
 }
 
 .disfruta {
