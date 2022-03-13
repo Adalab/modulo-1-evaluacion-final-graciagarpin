@@ -2,3 +2,9 @@
   background-color: $color-background-1;
   color: $color-light-turquoise;
 }
+
+.footer__link {
+  &icon {
+    color: $color-light-turquoise;
+  }
+}
