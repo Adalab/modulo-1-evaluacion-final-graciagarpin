@@ -10,16 +10,24 @@
 .articles {
   display: grid;
   justify-content: center;
-  gap: 20px;
+  grid-gap: 20px;
   padding-bottom: 40px;
 
   @media all and (min-width: 768px) {
     grid-auto-flow: column;
-    gap: 10%;
+    grid-gap: 10%;
   }
 
   &__article {
     text-align: center;
     width: 250px;
+  }
+
+  &__img {
+    padding-bottom: 15px;
+  }
+
+  &__subtitle {
+    padding-bottom: 15px;
   }
 }
