@@ -52,10 +52,11 @@
   flex-direction: column;
   align-items: center; //eje secundario centrado
   position: relative;
-  top: 50vh;
+  top: 40vh;
   width: auto;
-  // padding-bottom: z;
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
+    align-items: flex-start;
+    margin-left: 10%;
   }
 }
 
@@ -68,4 +69,5 @@
 
 .btn-box {
   display: flex;
+  padding-top: 30px;
 }
