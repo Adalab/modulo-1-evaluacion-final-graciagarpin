@@ -8,6 +8,12 @@
   height: 100vh;
   color: $color-turquoise;
   box-sizing: content-box;
+
+  &__logo {
+    display: block;
+    margin: auto;
+    padding: 15px;
+  }
 }
 
 .navbar {
@@ -15,7 +21,7 @@
   align-items: center;
   width: 100vw;
   position: fixed;
-  margin: 7vw;
+  margin: 60px;
 }
 
 .navbar__menu {
