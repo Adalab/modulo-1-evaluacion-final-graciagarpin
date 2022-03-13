@@ -1,10 +1,26 @@
 .footer {
   background-color: $color-background-1;
   color: $color-light-turquoise;
-}
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding-left: 25%;
+  padding-top: 25px;
 
-.footer__link {
-  &icon {
-    color: $color-light-turquoise;
+  &__links {
+    padding-top: 25px;
+    gap: 5px;
+  }
+
+  &__subtitle {
+    padding-bottom: 10px;
+  }
+
+  &__icons {
+    padding: 25px;
+  }
+
+  &__arrow {
+    //   padding-right: 15px;
   }
 }
