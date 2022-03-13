@@ -1,10 +1,8 @@
 .open-spaces {
   background-color: $color-background-2;
-  height: 100vh;
-  
 }
 
-.open-spaces__title{
+.open-spaces__title {
   padding: 40px;
   text-align: center;
 }
@@ -12,23 +10,16 @@
 .articles {
   display: grid;
   justify-content: center;
-  text-align: center;
+  gap: 20px;
+  padding-bottom: 40px;
+
+  @media all and (min-width: 768px) {
+    grid-auto-flow: column;
+    gap: 10%;
+  }
 
   &__article {
-    &__img {
-      // padding: 30px;
-      background-color: red;
-    }
-    &__subtitle {
-      // padding-bottom: 15px;
-      background-color: red;
-    }
+    text-align: center;
+    width: 250px;
   }
 }
-
-// .article__subtitle {
-//   background-color: red;
-// }
-
-
-
