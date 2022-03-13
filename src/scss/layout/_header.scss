@@ -21,7 +21,9 @@
   align-items: center;
   width: 100vw;
   position: fixed;
-  margin: 60px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-top: max(60px);
 }
 
 .navbar__menu {
@@ -45,6 +47,8 @@
 .navbar__menu-links {
   border: red solid 2px;
   display: flex;
+  align-items: flex-start;
+  margin-left: 10%;
 }
 
 .disfruta {
