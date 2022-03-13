@@ -16,7 +16,6 @@
   width: 100vw;
   position: fixed;
   margin: 7vw;
-  
 }
 
 .navbar__menu {
@@ -37,23 +36,20 @@
   color: $color-turquoise;
 }
 
-.menu-links__item {
-  // color: $color-turquoise;
-  &item--link {
-    color: $color-turquoise;
-  }
+.navbar__menu-links {
+  border: red solid 2px;
+  display: flex;
 }
 
 .disfruta {
   display: flex;
   flex-direction: column;
   align-items: center; //eje secundario centrado
-  position:relative;
-  top:50vh;
+  position: relative;
+  top: 50vh;
   width: auto;
   // padding-bottom: z;
-  @media  (max-width:768px){
-    
+  @media (max-width: 768px) {
   }
 }
 

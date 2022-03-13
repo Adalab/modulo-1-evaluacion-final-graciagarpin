@@ -38,6 +38,20 @@ $color-background-3: #ff975a;
 .small-text {
   font-size: $font-sizeSmallText;
 }
+
 .paragraph {
   font-size: $font-sizeParagraph;
+}
+
+.menu-text {
+  &--link-f {
+    color: $color-light-turquoise;
+    font-size: $font-sizeSmallText;
+    text-decoration: none;
+  }
+
+  &--link-h {
+    color: $color-turquoise;
+    text-decoration: none;
+  }
 }
