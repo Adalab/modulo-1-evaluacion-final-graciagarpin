@@ -13,7 +13,7 @@ $font-sizeParagraph: 16px;
 $font-sizeSmallText: 14px;
 
 //font weight
-// $font-wghtRegular: 400;
+// $font-wghtRegular: 400; -default
 $font-wghtSemiBold: 600;
 
 //background color
@@ -56,6 +56,6 @@ $color-background-3: #ff975a;
   }
 
   &--link-i {
-    color: $color-white
+    color: $color-white;
   }
 }

@@ -17,7 +17,7 @@
 }
 
 .navbar {
-  display: flex; //row
+  display: flex;
   align-items: center;
   width: 100vw;
   position: fixed;
@@ -46,12 +46,6 @@
 
 .navbar__menu-links {
   display: flex;
-
-  //DUDA ANIDADO:
-  // &__link {
-  //   border: blue solid 2px;
-  //   justify-content: space-around;
-  // }
   gap: 6.5px;
 }
 
@@ -62,7 +56,7 @@
 .panel-header {
   display: flex;
   flex-direction: column;
-  align-items: center; //eje secundario centrado
+  align-items: center;
   position: relative;
   top: 40vh;
   width: auto;
@@ -91,5 +85,4 @@
 .btn-box {
   display: flex;
   padding-top: 30px;
-  
 }
