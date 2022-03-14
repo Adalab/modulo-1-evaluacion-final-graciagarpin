@@ -75,9 +75,10 @@
 .btn {
   color: $color-white;
   background-color: $color-turquoise;
-  padding: 12px;
+  padding: 18px;
   text-decoration: none;
   box-sizing: border-box;
+  border-radius: 5px;
   box-shadow: inset 0 0 20px $color-background-3;
   transition: all 1s ease;
   &:hover {
@@ -90,4 +91,5 @@
 .btn-box {
   display: flex;
   padding-top: 30px;
+  
 }
