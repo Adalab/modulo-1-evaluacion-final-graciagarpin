@@ -3,14 +3,22 @@
   color: $color-light-turquoise;
   display: flex;
   flex-direction: column;
-  text-align: justify;
   padding-left: 35%;
   padding-top: 25px;
   padding-bottom: 20px;
 
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    padding-top: 20px;
+  }
+
   &__links {
     padding-top: 25px;
-    gap: 5px;
+    @media all and (min-width: 768px) {
+      justify-content: space-between;
+    }
   }
 
   &__subtitle {
@@ -24,18 +32,10 @@
 
   &__arrow {
     @media all and (max-width: 768px) {
-      padding-left: 85%;
+      padding-left: 200px;
     }
     @media all and (min-width: 768px) {
       padding-top: 115px;
     }
-  }
-
-  @media all and (min-width: 768px) {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10%;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
 }
