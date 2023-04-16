@@ -21,12 +21,19 @@
   align-items: center;
   width: 100vw;
   position: fixed;
-  margin-left: 10%;
-  margin-top: 5%;
-  margin-top: max(58px);
+  height: 18vh;
+}
+
+.navbar-scrolled {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
 .navbar__menu {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-top: max(40px);
+  margin-bottom: 5%;
+  margin-bottom: max(15px);
   @media all and (max-width: 1200px) {
     .navbar__menu-links {
       display: none;
